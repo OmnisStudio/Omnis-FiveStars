@@ -1,0 +1,39 @@
+{
+	"classtype": "kRemoteTask",
+	"internalversion": 2,
+	"nextident": 1,
+	"tvardefs": [
+
+	],
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+
+	],
+	"properties": {
+		"basehttpresponseheaders": "",
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2017-08-15 11:01:54",
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"localtestdata": "",
+		"localtime": false,
+		"maxtime": 0,
+		"maxusers": 0,
+		"moddate": "2017-08-15 16:57:10",
+		"restful": false,
+		"restfulapiname": "",
+		"showascheckedout": false,
+		"stringtable": "",
+		"timeout": 0,
+		"userinfo": "",
+		"version": "",
+		"webservice": ""
+	}
+}

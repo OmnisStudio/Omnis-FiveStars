@@ -1,0 +1,55 @@
+{
+	"ident": 1001,
+	"order": 1,
+	"objtype": "kComponent",
+	"componentlib": "jsControls",
+	"componentctrl": "net_omnis_fivestars",
+	"properties": {
+		"alpha": 255,
+		"backalpha": 255,
+		"backcolor": "kColorDefault",
+		"bordercolor": "kColorDefault",
+		"contextmenu": "",
+		"cssclassname": "",
+		"currentrating": "0",
+		"dataname": "",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablesystemfocus": true,
+		"dropmode": "kAcceptNone",
+		"effect": "kJSborderNone",
+		"enabled": true,
+		"events": "evClick",
+		"fieldstyle": "",
+		"maxrating": "5",
+		"objlink": 0,
+		"preventlayoutanimation": false,
+		"tooltip": "",
+		"userinfo": "",
+		"visible": true
+	},
+	"layout": {
+		"320": {
+			"left": 122,
+			"top": 55,
+			"width": 200,
+			"height": 101,
+			"dragborder": false,
+			"edgefloat": "kEFnone",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		},
+		"768": {
+			"left": 122,
+			"top": 55,
+			"width": 200,
+			"height": 101,
+			"dragborder": false,
+			"edgefloat": "kEFnone",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		}
+	}
+}
