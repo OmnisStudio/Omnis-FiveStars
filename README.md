@@ -21,14 +21,6 @@ The javascript file used by Omnis Studio to communicate with the rating.js file 
 
 As downloaded from https://github.com/callmenick/five-star-rating
 
-### rating.js 
-
-As downloaded from https://github.com/callmenick/five-star-rating
-
-### stars.svg 
-
-As downloaded from https://github.com/callmenick/five-star-rating
-
 ### FIVESTARS 
 
 A folder containing an Omnis Studio library exported as JSON to demonstrate the Omnis Studio fivestars component.
