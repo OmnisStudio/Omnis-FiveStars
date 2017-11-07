@@ -1,0 +1,79 @@
+{
+    "name": "net.omnis.fivestars",
+    "flags": {
+        "beforeafterevents": false,
+        "beforeevents": false,
+        "backcolorandalpha": true,
+        "noenabled": false,
+        "transparentbackground": false,
+        "hasdefaultborder": true,
+        "hasdisplayformat": false,
+        "hasdragevents": false
+    },
+    "customtabname":  "Custom",
+    "standardproperties" :  [
+        "bordercolor",
+        "dataname",
+        "effect"
+    ],
+    "properties": {
+        "maxrating": {
+            "id": 1,
+            "desc": "set the max rating",
+            "type": "integer",
+            "tab": "custom",
+            "runtimeonly": false,
+            "ﬁndandreplace": "false",
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "min": 1,
+            "max": 5,
+            "initial": 5
+        },
+        "currentrating": {
+            "id": 2,
+            "desc": "the current rating",
+            "type": "integer",
+            "tab": "custom",
+            "runtimeonly": false,
+            "ﬁndandreplace": "false",
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "min": 0,
+            "max": 5,
+            "initial": 0
+        }
+    },
+    "constants": {
+    },
+    "events": {
+        "evClick": {
+            "parameters": [
+                {
+                    "name": "xPos",
+                    "type": "integer",
+                    "desc": ""
+                },
+                {
+                    "name": "yPos",
+                    "type": "integer",
+                    "desc": ""
+                },
+                {
+                    "name": "numStars",
+                    "type": "integer",
+                    "desc": "current number of selected stars"
+                }
+            ]
+        }
+    },
+    "methods": {
+    },
+    "html": {
+        "template": "<div %o %s data-props='%p' data-mvprops='%m'></div>"
+    }
+}
