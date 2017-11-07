@@ -1,7 +1,8 @@
 # Omnis-FiveStars ##
 For Omnis Studio 8.1.2 and above
 
-Omnis FiveStars is a JSON defined component built around the fivestars component available from www.callmenick.com
+Omnis FiveStars is a JSON defined component built around the fivestars component available 
+from https://github.com/callmenick/five-star-rating
 
 It is also described in the Omnis technote www.omnis.net/technotes/tnjc0009.jsp
 
@@ -18,15 +19,15 @@ The javascript file used by Omnis Studio to communicate with the rating.js file 
 
 ### rating.css
 
-As downloaded from www.callmenick.com
+As downloaded from https://github.com/callmenick/five-star-rating
 
 ### rating.js 
 
-As downloaded from www.callmenick.com
+As downloaded from https://github.com/callmenick/five-star-rating
 
 ### stars.svg 
 
-As downloaded from www.callmenick.com
+As downloaded from https://github.com/callmenick/five-star-rating
 
 ### FIVESTARS 
 
