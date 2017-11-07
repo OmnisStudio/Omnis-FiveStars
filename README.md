@@ -32,10 +32,14 @@ A folder containing an Omnis Studio library exported as JSON to demonstrate the 
 3. Copy ctrl_net_omnis_fivestars.js and rating.js into the folder \html\scripts of your Omnis Studio tree.
 4. Add the following lines to your \html\jsctempl.htm file 
     a. Under the stylesheets
-    `<link type="text/css" href="css/rating.css" rel="stylesheet" />`
+    
+    ```<link type="text/css" href="css/rating.css" rel="stylesheet" />```
+    
     b. Under the Omnis Studio Javascript client script comments
-    `<script type="text/javascript" src="scripts/rating.js"></script>
-     <script type="text/javascript" src="scripts/ctl_net_omnis_fivestars.js"></script>`
+    
+    ```<script type="text/javascript" src="scripts/rating.js"></script>
+     <script type="text/javascript" src="scripts/ctl_net_omnis_fivestars.js"></script>```
+     
 5. Start Omnis Studio.
 6. With the Libraries node selected in the Studio Browser, press the New Lib from JSON hyperlink, set the JSON tree path to the FIVESTARS folder (containing the demo library exported as JSON) and select a location for your new library.
 7. Press Import and the demo library should be ready to use.
