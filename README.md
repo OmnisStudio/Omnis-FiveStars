@@ -2,6 +2,7 @@
 For Omnis Studio 8.1.2 and above
 
 Omnis FiveStars is a JSON defined component built around the fivestars component available from www.callmenick.com
+It is also described in the Omnis technote http://www.omnis.net/technotes/tnjc0009.jsp
 
 ## Contents ##
 This repository includes the following:
