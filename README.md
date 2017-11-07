@@ -37,7 +37,9 @@ A folder containing an Omnis Studio library exported as JSON to demonstrate the 
 1. Ensure Omnis Studio is closed
 2. Place the folder net.omnis.fivestars into the folder \html\controls (not \htmlcontrols) of your Omnis Studio tree, first creating the folder if it does not already exist.
 3. Copy ctrl_net_omnis_fivestars.js and rating.js into the folder \html\scripts of your Omnis Studio tree.
-4. Add the following lines to your \html\jsctempl.htm file 
+4. Copy rating.css into the folder \html\css of your Omnis Studio tree.
+5. Copy stars.svg into the folder \html\css\images of your Omnis Studio tree.
+6. Add the following lines to your \html\jsctempl.htm file 
     a. Under the stylesheets
     
     ```<link type="text/css" href="css/rating.css" rel="stylesheet" />```
@@ -49,6 +51,6 @@ A folder containing an Omnis Studio library exported as JSON to demonstrate the 
     <script type="text/javascript" src="scripts/ctl_net_omnis_fivestars.js"></script>
     ```
      
-5. Start Omnis Studio.
-6. With the Libraries node selected in the Studio Browser, press the New Lib from JSON hyperlink, set the JSON tree path to the FIVESTARS folder (containing the demo library exported as JSON) and select a location for your new library.
-7. Press Import and the demo library should be ready to use.
+7. Start Omnis Studio.
+8. With the Libraries node selected in the Studio Browser, press the New Lib from JSON hyperlink, set the JSON tree path to the FIVESTARS folder (containing the demo library exported as JSON) and select a location for your new library.
+9. Press Import and the demo library should be ready to use.
