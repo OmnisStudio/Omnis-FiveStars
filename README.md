@@ -32,11 +32,12 @@ A folder containing an Omnis Studio library exported as JSON to demonstrate the 
 4. Copy rating.css into the folder \html\css of your Omnis Studio tree.
 5. Copy stars.svg into the folder \html\css\images of your Omnis Studio tree.
 6. Add the following lines to your \html\jsctempl.htm file 
-    a. Under the stylesheets
+
+    * Under the stylesheets
     
     ```<link type="text/css" href="css/rating.css" rel="stylesheet" />```
     
-    b. Under the Omnis Studio Javascript client script comments
+    * Under the Omnis Studio Javascript client script comments
     
     ```javascript
     <script type="text/javascript" src="scripts/rating.js"></script>
